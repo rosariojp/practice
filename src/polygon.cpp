@@ -2,7 +2,7 @@
 
 Polygon::Polygon()
 {
-
+    // Empty Constructor
 }
 
 Polygon::Polygon(int height, int width)
