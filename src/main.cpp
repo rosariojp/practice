@@ -3,8 +3,12 @@
 
 int main() 
 {
-    Polygon rectangle;
-    std::cout << "Area of rectangle is: " << rectangle.getArea(2,4);
-    std::cout << "\n Hello My Ai!" << std::endl;
+    int height = 2;
+    int width = 4;
+    Polygon rectangle(height, width);
+
+    std::cout << "Height: " << rectangle.getHeight() << std::endl;
+    std::cout << "Width: " << rectangle.getWidth() << std::endl;
+    std::cout << "Area of rectangle is: " << rectangle.getArea();
     return 0;
 }

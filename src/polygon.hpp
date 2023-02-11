@@ -7,7 +7,11 @@ class Polygon
     int width;
  
  public:
-    int getArea(int height, int width);
+    Polygon();
+    Polygon(int height, int width);
+    int getArea();
+    int getHeight();
+    int getWidth();
 };
 
 #endif

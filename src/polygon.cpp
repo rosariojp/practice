@@ -1,6 +1,27 @@
 #include "polygon.hpp"
 
-int Polygon::getArea(int height, int width)
+Polygon::Polygon()
+{
+
+}
+
+Polygon::Polygon(int height, int width)
+{
+    this->height = height;
+    this->width = width;
+}
+
+int Polygon::getArea()
 {
     return height * width;
+}
+
+int Polygon::getHeight() 
+{
+    return height;
+}
+
+int Polygon::getWidth()
+{
+    return width;
 }
